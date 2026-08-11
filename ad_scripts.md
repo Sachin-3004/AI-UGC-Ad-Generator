@@ -48,3 +48,72 @@ IPX4
 ### CTA
 
 "Check out the boAt Nirvana Ion."
+
+
+# Script 2 — Gaming UGC
+
+## Hook
+
+"Gamers, you need to see this."
+
+## Problem
+
+"You know when your audio feels slightly behind what's happening on screen?"
+
+## Solution
+
+"I've been trying the boAt Nirvana Ion, and it has BEAST Mode with 60ms low latency."
+
+## Experience
+
+"It makes the audio feel much more synced while gaming."
+
+"Plus, you've got up to 120 hours of total playback."
+
+## CTA
+
+"So if you're looking for everyday earbuds that can handle gaming too, check these out."
+
+## Suggested Shots
+
+- Gaming setup
+- Putting earbuds in
+- Gameplay
+- Showing BEAST Mode
+- Product close-up
+
+## On-Screen Text
+
+60ms Low Latency
+
+BEAST Mode
+
+Up to 120H Playback
+
+
+# Script 3 — Friend Recommendation
+
+## Hook
+
+"Okay, these might be my new everyday earbuds."
+
+## Body
+
+"I've been using the boAt Nirvana Ion for music, calls and gaming."
+
+"What I like is that they don't feel like something I have to constantly charge."
+
+"You get up to 120 hours of total playback."
+
+"They also have dual EQ modes, in-ear detection and quad mics with ENx technology."
+
+## CTA
+
+"If you're looking for a new pair of wireless earbuds, I'd definitely give these a look."
+
+## Style
+
+Casual
+Natural
+Friend-to-friend
+Minimal product pitching

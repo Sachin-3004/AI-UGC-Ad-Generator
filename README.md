@@ -72,6 +72,14 @@ ChatGPT
 - Platform adaptation
 - Multiple-output generation
 
+## 🎥 UGC Ad Demo
+
+A short UGC-style advertisement created from the prompts in this project.
+
+**Product:** boAt Nirvana Ion Wireless Earbuds
+
+**Format:** Instagram Reels / YouTube Shorts
+
 ## Outcome
 
 Created a reusable prompt system capable of producing

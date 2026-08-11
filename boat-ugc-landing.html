@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UGC Ad Content Generator | boAt Nirvana Ion</title>
+  <style>
+:root{--bg:#080808;--card:#141414;--muted:#aaa;--text:#fff;--accent:#ff4d1f;--line:#292929}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+nav{height:72px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 7%;position:sticky;top:0;background:rgba(8,8,8,.92);backdrop-filter:blur(12px);z-index:5}
+.logo{font-weight:800;font-size:20px}.logo span{color:var(--accent)}
+nav a{color:#ddd;text-decoration:none;margin-left:24px;font-size:14px}
+.hero{padding:100px 7% 80px;display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center;background:radial-gradient(circle at 80% 30%,#4d1a0e 0,transparent 38%)}
+.badge{display:inline-block;border:1px solid #65301f;color:#ff8a68;padding:7px 12px;border-radius:99px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+h1{font-size:clamp(42px,6vw,78px);line-height:1.02;margin:22px 0}.hero p{font-size:19px;color:#c6c6c6;max-width:650px}
+.btn{display:inline-block;margin-top:24px;background:var(--accent);color:white;text-decoration:none;padding:13px 20px;border-radius:10px;font-weight:700}
+.product{background:linear-gradient(145deg,#222,#0e0e0e);border:1px solid #333;border-radius:28px;padding:35px;box-shadow:0 25px 80px #000}
+.case{height:210px;width:270px;margin:20px auto;background:linear-gradient(145deg,#3b3b3b,#101010);border-radius:70px 70px 48px 48px;display:flex;align-items:center;justify-content:center;gap:18px;box-shadow:inset 0 0 0 8px #222}
+.bud{width:45px;height:75px;border-radius:24px 24px 30px 30px;background:#777;position:relative}.bud:after{content:"";position:absolute;width:13px;height:13px;background:#111;border-radius:50%;top:15px;left:16px}
+.product h3{font-size:26px;margin-bottom:4px}.product p{color:#aaa}.price{font-size:28px;font-weight:800;margin-top:15px}
+section{padding:85px 7%}.section-title{max-width:700px;margin-bottom:45px}.section-title h2{font-size:42px;margin:0 0 12px}.section-title p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:var(--card);border:1px solid var(--line);padding:28px;border-radius:18px}.card h3{margin-top:0}.card p{color:#aaa}.number{color:var(--accent);font-weight:800}
+.script{background:#101010;border:1px solid var(--line);border-radius:20px;padding:30px;margin-top:18px}.script strong{color:#ff8a68}
+.workflow{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.step{padding:20px;background:#111;border:1px solid var(--line);border-radius:14px;text-align:center;font-weight:700}
+.cta{background:linear-gradient(120deg,#3b1208,#170b08);text-align:center}.cta p{color:#ccc;max-width:650px;margin:auto}
+footer{padding:35px 7%;border-top:1px solid var(--line);color:#888;font-size:13px}
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:70px}.grid{grid-template-columns:1fr}.workflow{grid-template-columns:1fr 1fr}nav{padding:0 5%}nav div:last-child{display:none}}
+</style>
+ </head>
+ <body>
+  <nav>
+   <div class="logo">
+    AI<span>UGC</span> Studio
+   </div>
+   <div>
+    <a href="#hooks">Hooks</a><a href="#script">Script</a><a href="#workflow">Workflow</a>
+   </div>
+  </nav>
+  <header class="hero">
+   <div>
+    <span class="badge">Prompt Engineering Internship · Task 2</span>
+    <h1>Ads that feel like a recommendation, not an ad.</h1>
+    <p>AI-powered UGC content generation for the boAt Nirvana Ion wireless earbuds — built for Instagram Reels, Instagram Ads and YouTube Shorts.</p>
+    <a class="btn" href="#script">View Demo Script ↓</a>
+   </div>
+   <div class="product">
+    <div class="case">
+     <div class="bud"></div>
+     <div class="bud"></div>
+    </div>
+    <h3>boAt Nirvana Ion</h3>
+    <p>120H total playback · Dual EQ modes · Quad mics with ENx™ · BEAST™ Mode with 60ms low latency</p>
+    <div class="price">UGC Content Pack</div>
+   </div>
+  </header>
+  <section id="hooks">
+   <div class="section-title">
+    <h2>Multiple hooks. One product.</h2>
+    <p>The prompt system generates different opening angles so the same product can be tested with different audience motivations.</p>
+   </div>
+   <div class="grid">
+    <div class="card">
+     <span class="number">01 · PROBLEM</span>
+     <h3>“I was honestly tired of charging my earbuds every single day.”</h3>
+     <p>Starts with a relatable everyday frustration.</p>
+    </div>
+    <div class="card">
+     <span class="number">02 · CURIOSITY</span>
+     <h3>“Okay, why did nobody tell me these earbuds last this long?”</h3>
+     <p>Creates curiosity without sounding like a conventional ad.</p>
+    </div>
+    <div class="card">
+     <span class="number">03 · GAMING</span>
+     <h3>“Gamers, you need to see this.”</h3>
+     <p>Targets a specific audience and use case.</p>
+    </div>
+   </div>
+  </section>
+  <section id="script">
+   <div class="section-title">
+    <h2>30-second UGC script</h2>
+    <p>Problem → personal experience → product → relevant features → soft CTA.</p>
+   </div>
+   <div class="script">
+    <p><strong>HOOK:</strong> “I was honestly tired of charging my earbuds every single day.”</p>
+    <p><strong>PROBLEM:</strong> “Between college, travelling and listening to music all day, my old earbuds were constantly running out of battery.”</p>
+    <p><strong>PRODUCT:</strong> “Then I started using the boAt Nirvana Ion.”</p>
+    <p><strong>EXPERIENCE:</strong> “The thing I noticed first was the battery. You get up to 120 hours of total playback, so charging isn't something I'm constantly thinking about.”</p>
+    <p><strong>FEATURES:</strong> “They also have BEAST Mode with 60ms low latency for gaming, and quad-mic ENx technology for calls.”</p>
+    <p><strong>CTA:</strong> “If you're looking for a pair of everyday earbuds, these are definitely worth checking out.”</p>
+   </div>
+  </section>
+  <section id="workflow">
+   <div class="section-title">
+    <h2>Prompt system</h2>
+    <p>A reusable workflow designed to turn product context into platform-ready UGC content.</p>
+   </div>
+   <div class="workflow">
+    <div class="step">
+     Product
+     <br>
+     Context
+    </div>
+    <div class="step">
+     Audience
+     <br>
+     &amp; Problem
+    </div>
+    <div class="step">
+     Multiple
+     <br>
+     Hooks
+    </div>
+    <div class="step">
+     UGC
+     <br>
+     Script
+    </div>
+    <div class="step">
+     CTA +
+     <br>
+     Platform
+    </div>
+   </div>
+  </section>
+  <section>
+   <div class="section-title">
+    <h2>Content pack</h2>
+    <p>Designed as a deliverable that can be handed to a brand founder, creator or marketing agency.</p>
+   </div>
+   <div class="grid">
+    <div class="card">
+     <h3>10 Hooks</h3>
+     <p>Problem, curiosity, recommendation, lifestyle, gaming, battery and calling angles.</p>
+    </div>
+    <div class="card">
+     <h3>3 UGC Scripts</h3>
+     <p>Different creative angles for short-form social video.</p>
+    </div>
+    <div class="card">
+     <h3>Platform Adaptation</h3>
+     <p>Instagram Reels, Instagram Ads and YouTube Shorts.</p>
+    </div>
+   </div>
+  </section>
+  <section class="cta">
+   <h2>From prompt to publish-ready creative.</h2>
+   <p>This project demonstrates structured Prompt Engineering for authentic UGC-style advertising content.</p>
+   <a class="btn" href="https://www.boat-lifestyle.com/products/nirvana-ion-bluetooth-wireless-earbuds">View Product</a>
+  </section>
+  <footer>AI UGC Ad Content Generator · Internship Task 2 · Portfolio demonstration. Product specifications referenced from boAt's official product page.</footer>
+ </body>
+</html>
